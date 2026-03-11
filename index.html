@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberZone | Universo Gamer</title>
+    
+    <style>
+        /* Fundo escuro e fonte limpa */
+        body {
+            background-color: #121214;
+            color: #e1e1e6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Estilo do Cabeçalho */
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        /* Efeito Neon no Título Principal */
+        h1 {
+            color: #00ffcc;
+            text-shadow: 0 0 15px #00ffcc;
+            font-size: 3em;
+            margin-bottom: 5px;
+        }
+
+        /* Caixa que organiza os Cards lado a lado */
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        /* Estilo do Card (Caixa do Jogo) */
+        .card {
+            background-color: #202024;
+            width: 300px;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            border: 2px solid #8257e5; /* Borda roxa */
+            box-shadow: 0 0 15px rgba(130, 87, 229, 0.4); /* Sombra roxa neon */
+            transition: transform 0.3s ease; /* Animação suave */
+        }
+
+        /* Efeito de flutuar quando passa o mouse */
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 25px rgba(130, 87, 229, 0.8);
+        }
+
+        /* Arredondar a imagem do jogo */
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        /* Estilo do Botão */
+        .btn {
+            display: inline-block;
+            background-color: #00ffcc;
+            color: #121214;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 6px;
+            margin-top: 10px;
+            transition: 0.2s;
+        }
+
+        /* Brilho no botão ao passar o mouse */
+        .btn:hover {
+            background-color: #e1e1e6;
+            box-shadow: 0 0 15px #00ffcc;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>CyberZone</h1>
+        <p>Seu radar definitivo para jogar com a galera 🎮</p>
+    </header>
+
+    <div class="container">
+        
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" alt="Setup Gamer">
+            <h2>Valorant</h2>
+            <p>Tiroteio tático, agentes únicos e muito neon. Você está pronto para o clutch?</p>
+            <a href="https://playvalorant.com/" target="_blank" class="btn">Jogar Agora</a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" alt="Setup Gamer">
+            <h2>Minecraft</h2>
+            <p>A criatividade é o limite. Sobreviva e construa mundos gigantescos com os amigos.</p>
+            <a href="https://www.minecraft.net/" target="_blank" class="btn">Explorar</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
